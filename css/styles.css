@@ -11,6 +11,11 @@ header {
   line-height: normal;
   letter-spacing: 0.28px;
   background: #fff;
+  border-bottom: #eee;
+  border-style: solid;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 .sigla-navigations {
   display: flex;
@@ -227,4 +232,34 @@ button:hover {
 }
 .adress-footer{
   margin-bottom: 60px;
+}
+.portofolio-body{
+  margin-top: 94px;
+  margin-bottom: 94px;
+
+ 
+}
+.card-portofolio ul{
+  display: flex;
+  
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.buttons-portofolio{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+.first-button, .second-button, .three-button,
+.four-button, .five-button{
+  margin: 15px;
+}
+.cards-item-portofolio{
+  margin:15px;
+}
+.card-item-portofolio-description{
+  border-color: #eee;
+  border-style: solid;
+  padding: 15px;
+  border-top: none;
 }
