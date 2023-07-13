@@ -1,6 +1,7 @@
 .container {
   width: 1600px;
   height: 80px;
+  margin: 0 auto;
 }
 header {
   color: #757575;
@@ -23,11 +24,10 @@ header {
   
 }
 .meniu-navigare {
-  padding-left: 200px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 200px;
+  padding: 0 200px 0 200px;
 }
 body {
   background-color: #fff;
@@ -74,11 +74,12 @@ nav ul {
   justify-content: center;
   margin-top: 94px;
   margin-bottom: 94px;
-  padding-left: 200px;
-  padding-right: 200px;
+  
 }
 .detail-list-item {
 margin: 15px;
+width: 270px;
+height: 75px;
 }
 .title-work {
   color: #212121;
@@ -224,7 +225,6 @@ button:hover {
   display: flex;
   flex-direction: column;
   padding-left: 200px;
-  padding-right: 200px;
 }
 .sigla-footer{
   margin-top: 60px;
